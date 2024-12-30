@@ -1,0 +1,59 @@
+[debug] [2024-12-30T17:30:21.790Z] : 
+[debug] [2024-12-30T17:30:21.792Z] : ----------------------------------------------------------------------
+[debug] [2024-12-30T17:30:21.792Z] : Command:      D:\Docu\User\Node JS\node.exe C:\Users\prave\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js init
+[debug] [2024-12-30T17:30:21.792Z] : CLI Version:  1.17.6
+[debug] [2024-12-30T17:30:21.793Z] : Platform:     win32
+[debug] [2024-12-30T17:30:21.793Z] : Node Version: v22.12.0
+[debug] [2024-12-30T17:30:21.793Z] : Time:         Mon Dec 30 2024 23:00:21 GMT+0530 (India Standard Time)
+[debug] [2024-12-30T17:30:21.793Z] : ----------------------------------------------------------------------
+[debug] [2024-12-30T17:30:21.793Z] : 
+[debug] [2024-12-30T17:30:22.771Z] : > authorizing via signed-in user option
+[debug] [2024-12-30T17:30:22.771Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","Stratus.sdkop.CREATE","Stratus.sdkop.READ","ZohoCatalyst.project.import.CREATE"]
+[info] [2024-12-30T17:30:22.847Z] : 
+      ___  
+      \  \     ____           _             _                 _   
+   ___ \  \   / ___|   __ _  | |_    __ _  | |  _   _   ___  | |_ 
+  /  / /  /  | |      / _` | | __|  / _` | | | | | | | / __| | __|
+ /  / /__/   | |___  | (_| | | |_  | (_| | | | | |_| | \__ \ | |_ 
+ \  \         \____|  \__,_|  \__|  \__,_| |_|  \__, | |___/  \__|
+  \__\                                          |___/       
+
+You're about to initialize a Catalyst project in this directory:
+
+  D:\New folder\MCA\Docu3c\downloader_app\Medical-web\hospital-dashboard
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2024-12-30T17:30:24.797Z] : > refreshing access token <
+[debug] [2024-12-30T17:30:24.798Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-12-30T17:30:24.982Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 30 Dec 2024 17:30:26 GMT","content-type":"application/json;charset=UTF-8","content-length":"1948","connection":"keep-alive","set-cookie":["zalb_6e73717622=13e67ac15bc4d3ece130966123511df7; Path=/; Secure; HttpOnly","iamcsr=5da4b2c5-cff7-48e8-88e0-7bd1ee3d211e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5da4b2c5-cff7-48e8-88e0-7bd1ee3d211e;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2024-12-30T17:30:24.996Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/orgs 
+
+[debug] [2024-12-30T17:30:25.144Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 30 Dec 2024 17:30:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=90b30d3d-59a4-4829-b48c-2bb9031ef366;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=90b30d3d-59a4-4829-b48c-2bb9031ef366;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2024-12-30T17:30:25.146Z] : i Setting up a new default project for this folder
+
+[debug] [2024-12-30T17:30:25.147Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project 
+
+[debug] [2024-12-30T17:30:25.215Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 30 Dec 2024 17:30:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=1a72fc1b-9a1f-42ba-8e10-2fbe0e0772b0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1a72fc1b-9a1f-42ba-8e10-2fbe0e0772b0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2024-12-30T17:30:38.981Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/12466000000007080/environment 
+
+[debug] [2024-12-30T17:30:39.099Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 30 Dec 2024 17:30:40 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=bcc2fd56-87c6-461b-8301-d7df2dba1dcb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bcc2fd56-87c6-461b-8301-d7df2dba1dcb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2024-12-30T17:30:39.113Z] : i .catalystrc file has be successfully created with project details.
+[info] [2024-12-30T17:35:06.979Z] : 
+===> Client Setup
+[info] [2024-12-30T17:38:40.633Z] : 
+===> Appsail Setup
+[info] [2024-12-30T17:38:50.808Z] : 
+[info] [2024-12-30T17:38:50.809Z] : => Configure AppSail service
