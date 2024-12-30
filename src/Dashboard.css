@@ -49,7 +49,7 @@
   padding: 0; /* Remove padding */  
   flex-grow: 1;  
   color: #333;  
-  background-image: url('D:/New folder/MCA/Docu3c/downloader_app/Medical-web/hospital-dashboard/src/pic1.png');  
+  background-image: url('./assets/images/pic1.png');
   background-size: cover;  
   background-position: center;  
   background-repeat: no-repeat;  
